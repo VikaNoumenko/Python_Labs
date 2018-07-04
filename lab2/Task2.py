@@ -1,0 +1,6 @@
+n = str(input("Enter 10 symbols: "))
+print("First 4 symbols: %s" % n[:4])
+print("Last 4 symbols: %s" % n[-4:])
+x = int(len(n)/2)
+print("Symbol in the middle: %s" % n[x])
+print("Symbols from 3 to 8: %s" % n[2:8])
